@@ -56,13 +56,20 @@ https://www.tooplate.com/view/2119-gymso-fitness
                     <li class="nav-item">
                         <a href="#contact" class="nav-link smoothScroll">Contact</a>
                     </li>
+
+                    <!-- Adding login form here -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link smoothScroll btn custom-btn bg-color" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#loginForm">Log in</a>
+                    </li>
                 </ul>
 
-                <ul class="social-icon ml-lg-3">
+                
+
+                <!-- <ul class="social-icon ml-lg-3">
                     <li><a href="#" class="fa fa-facebook"></a></li>
                     <li><a href="#" class="fa fa-twitter"></a></li>
                     <li><a href="https://www.instagram.com/_prasadmamidi_/" class="fa fa-instagram"></a></li>
-                </ul>
+                </ul> -->
             </div>
 
         </div>
@@ -462,6 +469,40 @@ https://www.tooplate.com/view/2119-gymso-fitness
         </div>
       </div>
     </div>
+
+
+    <!-- Login Form  -->
+
+    <div class="modal fade" id="loginForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+  
+          <div class="modal-content">
+            <div class="modal-header">
+  
+              <h2 class="modal-title" id="membershipFormLabel">Login</h2>
+  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+  
+            <div class="modal-body">
+              <form class="membership-form webform" role="form">
+  
+                  <input type="email" class="form-control" name="cf-email" placeholder="your email">
+                  <input type="text" class="form-control" name="cf-name" placeholder="Password">
+                 
+  
+                  <button type="submit" class="form-control" id="submit-button" name="submit">Login</button>
+  
+              </form>
+            </div>
+  
+            <div class="modal-footer"></div>
+  
+          </div>
+        </div>
+      </div>
 
      <!-- SCRIPTS -->
      <script src="js/jquery.min.js"></script>
