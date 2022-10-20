@@ -173,8 +173,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                                     <div class="team-info d-flex flex-column">
 
-                                        <h3>Mary Yan</h3>
-                                        <span>Yoga Instructor</span>
+                                        <!-- <h3>Mary Yan</h3> -->
+                                        <h3><?php echo "$name1"; ?></h3>
+                                        <!-- <span>Yoga Instructor</span> -->
+                                        <span><?php echo "$des1"; ?></span>
 
                                         <ul class="social-icon mt-3">
                                             <li><a href="#" class="fa fa-twitter"></a></li>
@@ -190,8 +192,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                                     <div class="team-info d-flex flex-column">
 
-                                        <h3>Rishab</h3>
-                                        <span>Body trainer</span>
+                                        <h3><?php echo "$name2"; ?></h3>
+                                        <span><?php echo "$des2"; ?></span>
 
                                         <ul class="social-icon mt-3">
                                             <li><a href="#" class="fa fa-instagram"></a></li>
