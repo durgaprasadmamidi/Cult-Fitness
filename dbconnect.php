@@ -1,6 +1,6 @@
 
 <?php
-$servername = "esp.durgaprasad.live";
+$servername = "localhost";
 $username = "durga";
 $password = "123";
 $dbname = "cult";
