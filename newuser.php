@@ -13,7 +13,7 @@
     
     <body> 
     
-				  <form action="includes/adduser.php" method="POST">
+				  <form action="adduser.php" method="POST">
 					<input type="text" name="firstname" placeholder="First Name">
 					<input type="password" name="lastname" placeholder="Last Name">
                     <input type="text" name="email" placeholder="Email">
