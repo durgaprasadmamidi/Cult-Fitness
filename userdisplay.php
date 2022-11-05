@@ -32,6 +32,7 @@ if ($result = $mysqli->query($query)) {
     $result->free();
 } 
 ?>
+
 </body>
 </html>
 
