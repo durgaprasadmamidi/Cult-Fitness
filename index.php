@@ -68,6 +68,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
                         <a href="#contact" class="nav-link smoothScroll">Contact</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a href="#user" class="nav-link smoothScroll">User</a>
+                    </li>
+
                     <!-- Adding login form here -->
                     <li class="nav-item">
                         <a href="#" class="nav-link smoothScroll btn custom-btn bg-color" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#loginForm">Log in</a>
@@ -500,7 +504,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
             </div>
   
             <div class="modal-body">
-                <form class="membership-form webform" action="loginvalidation.php" role="form" method="$_POST">
+                <form class="membership-form webform" action="loginvalidation.php" role="form" method="POST">
                     <input type="text" class="form-control" name="Username" placeholder="Username">
                     <input type="text" class="form-control" name="Password" placeholder="Password">
                     <button type="submit" class="form-control" id="submit-button" name="submit">Login</button>
