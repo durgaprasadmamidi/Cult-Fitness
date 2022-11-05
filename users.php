@@ -40,20 +40,20 @@
                         while($row = $result -> fetch_assoc()){
                             echo "<tr>";
                                 echo "<td>";
-                                    echo $row["firstname"];
+                                    echo $row["FirstName"];
                                 echo "</td>";
                                 echo "<td>";
-                                    echo $row["lastname"];
+                                    echo $row["LastName"];
                                 echo "</td>";
                                 echo "<td>";
-                                    echo $row["email"];
+                                    echo $row["Email"];
                                 echo "</td>";
                                 
                                 echo "<td>";
-                                    echo $row["homephone"];
+                                    echo $row["HomePhone"];
                                 echo "</td>";
                                 echo "<td>";
-                                    echo $row["cellphone"];
+                                    echo $row["CellPhone"];
                                 echo "</td>";
                             echo "</tr>";
                         }
@@ -62,8 +62,8 @@
         <br/>
         <br/>
         <center>
-            <a class="link animated fadeInUp delay-2s servicelink" href="#" data-toggle="modal" data-target="#create-modal">ADD</a>
-            <a class="link animated fadeInDown delay-1s servicelink" href="#" data-toggle="modal" data-target="#search-modal">SEARCH</a>
+            <a class="link animated fadeInUp delay-2s servicelink" href="/adduser.php" data-toggle="modal" data-target="#create-modal">ADD</a>
+            <a class="link animated fadeInDown delay-1s servicelink" href="/search.php" data-toggle="modal" data-target="#search-modal">SEARCH</a>
         </center>
            </div>
 </section>
