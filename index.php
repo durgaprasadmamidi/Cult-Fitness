@@ -22,6 +22,8 @@ Tooplate 2119 Gymso Fitness
 https://www.tooplate.com/view/2119-gymso-fitness
 -->
 </head>
+
+
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
     <!-- adding php code to read details from text file -->
@@ -222,11 +224,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                                 <h2 data-aos="fade-up" data-aos-delay="200">Our Training Classes</h2>
                              </div>
-
+                           
                             <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
                                 <div class="class-thumb">
                                     <img src="images/class/yoga-class.jpg" class="img-fluid" alt="Class">
 
+                                    <a href="yoga.php">
+                                    
                                     <div class="class-info">
                                         <h3 class="mb-1">Yoga</h3>
 
@@ -235,14 +239,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
                                         <span class="class-price">$50</span>
 
                                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                       
+                                        
                                     </div>
+                                    </a>
+
                                 </div>
                             </div>
-
+                            
                             <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
                                 <div class="class-thumb">
                                     <img src="images/class/crossfit-class.jpg" class="img-fluid" alt="Class">
-
+                                    <a href="areobic.php">
                                     <div class="class-info">
                                         <h3 class="mb-1">Areobic</h3>
 
@@ -252,15 +260,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                                     </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="class-thumb">
                                     <img src="images/class/cardio-class.jpg" class="img-fluid" alt="Class">
-
+                                    <a href="cardio1.php">
                                     <div class="class-info">
-                                        <h3 class="mb-1">Cardio</h3>
+                                        <h3 class="mb-1">Cardio - 1</h3>
 
                                         <span><strong>Trained by</strong> - Rishab</span>
 
@@ -268,6 +277,118 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                                         <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                                     </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-2.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio2.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 2</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-3.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio3.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 3</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-4.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio4.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 4</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div><div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-5.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio5.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 5</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div><div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-6.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio6.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 6</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div><div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-7.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio7.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 7</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div><div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="images/class/cardio-class-8.jpg" class="img-fluid" alt="Class">
+                                    <a href="cardio8.php">
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio - 8</h3>
+
+                                        <span><strong>Trained by</strong> - Rishab</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                    </a>
                                 </div>
                             </div>
 
