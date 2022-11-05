@@ -1,5 +1,5 @@
 <?php
-    parse_str($_SERVER['QUERY_STRING']);
+    // parse_str($_SERVER['QUERY_STRING']);
     $result = $mysqli->query("SELECT * FROM products where id = 8;");
     $prod = $result -> fetch_assoc();
     $hits = $prod["hits"] + 1;

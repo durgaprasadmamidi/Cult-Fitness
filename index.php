@@ -223,6 +223,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
                                 <h6 data-aos="fade-up">Get A Perfect Body</h6>
 
                                 <h2 data-aos="fade-up" data-aos-delay="200">Our Training Classes</h2>
+                                <a href="./tops.php">
+                                    <h3 > Click here for our Most Visited Classes</h3>
+                                </a>
                              </div>
                            
                             <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
