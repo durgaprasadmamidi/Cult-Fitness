@@ -500,7 +500,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
             </div>
   
             <div class="modal-body">
-                <form class="membership-form webform" action="loginvalidation.php" role="form">
+                <form class="membership-form webform" action="loginvalidation.php" role="form" method="$_POST">
                     <input type="text" class="form-control" name="Username" placeholder="Username">
                     <input type="text" class="form-control" name="Password" placeholder="Password">
                     <button type="submit" class="form-control" id="submit-button" name="submit">Login</button>

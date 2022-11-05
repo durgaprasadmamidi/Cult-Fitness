@@ -2,7 +2,7 @@
 <?php
      ob_start();
     session_start();
-     if (isset($_POST["Login"]) && !empty($_POST["Username"]) && !empty($_POST["Password"])){
+     if (!empty($_POST["Username"]) && !empty($_POST["Password"])){
           $userfile = fopen("Files/credentials.txt", "r");
             while(($line=fgets($userfile))!==false){
                     $line = rtrim($line,"\r\n");
