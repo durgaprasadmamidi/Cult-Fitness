@@ -1,4 +1,4 @@
-<?php require "dbconnect.php"?>
+
 <?php 
 $username = "durga"; 
 $password = "123"; 
