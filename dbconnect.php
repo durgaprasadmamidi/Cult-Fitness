@@ -10,11 +10,11 @@ $query = "SELECT * FROM users";
 
 echo '<table border="0" cellspacing="2" cellpadding="2"> 
       <tr> 
-          <td> <font face="Arial">Value1</font> </td> 
-          <td> <font face="Arial">Value2</font> </td> 
-          <td> <font face="Arial">Value3</font> </td> 
-          <td> <font face="Arial">Value4</font> </td> 
-          <td> <font face="Arial">Value5</font> </td> 
+          <td> <font face="Arial">First Name</font> </td> 
+          <td> <font face="Arial">Last Name</font> </td> 
+          <td> <font face="Arial">E mail</font> </td> 
+          <td> <font face="Arial">Home Phone</font> </td> 
+          <td> <font face="Arial">Cell Phone</font> </td> 
       </tr>';
 
 if ($result = $mysqli->query($query)) {
