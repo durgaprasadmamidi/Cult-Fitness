@@ -10,6 +10,7 @@
                     if ($_POST["Username"]==$user[0]  && $_POST["Password"]==$user[1]){
                         $_SESSION["user"] = $_POST["Username"];
                         fclose($userfile);
+                        //header("location: secure.php");
                         header("location: secure.php");
                         exit;
                     }
