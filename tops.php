@@ -1,3 +1,4 @@
+<?php require "dbconnect.php"?>
 <section class="main-section alabaster" id="tops">
 	<div class="container fullsize">
     	<div class="row">
