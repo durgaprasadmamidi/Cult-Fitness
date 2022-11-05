@@ -2,7 +2,7 @@
 <html lang="en">
 
 <body>
-<form action="index.php#users" method="post">
+<form action="users.php" method="post">
 					<input type="text" name="name" placeholder="Name">
                       <h3>OR</h3>
 					<input type="text" name="email" placeholder="Email">
