@@ -3,7 +3,7 @@
 <?php require "dbconnect.php"?>
 <?php 
 
-
+$query = "SELECT * FROM users";
 echo '<table border="0" cellspacing="2" cellpadding="2"> 
       <tr> 
           <td> <font face="Arial">First Name</font> </td> 
