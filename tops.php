@@ -7,6 +7,7 @@
                 <table>
                     <tr>
                         <th>Name</th>
+                        <th>Description</th>
                         <th>Hits</th>
                     </tr>
                 <?php
@@ -32,6 +33,7 @@
                         echo "<table>";
                         echo "<tr>";
                         echo "<th>Name</th>";
+                        echo "<th>Description</th>";
                         echo "<th>Hits</th>";
                         echo "</tr>";        
                      $heatmap=array();
