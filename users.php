@@ -62,7 +62,7 @@
         <br/>
         <br/>
         <center>
-            <a class="link animated fadeInUp delay-2s servicelink" href="/adduser.php" data-toggle="modal" data-target="#create-modal">ADD</a>
+            <a class="link animated fadeInUp delay-2s servicelink" href="/newuser.php" data-toggle="modal" data-target="#create-modal">ADD</a>
             <a class="link animated fadeInDown delay-1s servicelink" href="/search.php" data-toggle="modal" data-target="#search-modal">SEARCH</a>
         </center>
            </div>

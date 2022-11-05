@@ -424,6 +424,28 @@ https://www.tooplate.com/view/2119-gymso-fitness
           </div>
      </section>
 
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="user">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+
+                                    <h6 data-aos="fade-up" data-aos-delay="300">Please Select</h6>
+                                    <a href="/newuser.php" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Add User</a>
+                                    <a href="/search.php" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Search User</a>
+
+                                   
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+
 
      <!-- FOOTER -->
      <footer class="site-footer">
