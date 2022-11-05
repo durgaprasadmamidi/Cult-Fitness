@@ -500,15 +500,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
             </div>
   
             <div class="modal-body">
-              <form class="membership-form webform" role="form">
-  
-                  <input type="email" class="form-control" name="cf-email" placeholder="your email">
-                  <input type="text" class="form-control" name="cf-name" placeholder="Password">
-                 
-  
-                  <button type="submit" class="form-control" id="submit-button" name="submit">Login</button>
-  
-              </form>
+                <form class="membership-form webform" action="loginvalidation.php" role="form">
+                    <input type="text" class="form-control" name="Username" placeholder="Username">
+                    <input type="text" class="form-control" name="Password" placeholder="Password">
+                    <button type="submit" class="form-control" id="submit-button" name="submit">Login</button>
+                </form>
             </div>
   
             <div class="modal-footer"></div>
