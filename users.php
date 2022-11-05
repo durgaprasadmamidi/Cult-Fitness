@@ -28,12 +28,12 @@
                                 $sql=$sql."OR homephone LIKE'%".$_POST["phone"]."%' OR cellphone LIKE '%".$_POST["phone"]."%';";
                             }
                             
-                            $result = $conn->query($sql);
+                            $result = $mysqli->query($sql);
                             }
                    
                         else{
                             $sql = "SELECT * FROM users";
-                            $result = $conn->query($sql);
+                            $result = $mysqli->query($sql);
                         }
                    
                         
