@@ -1,3 +1,4 @@
+<?php require "dbconnect.php"?>
 <?php
     // parse_str($_SERVER['QUERY_STRING']);
     $result = $mysqli->query("SELECT * FROM products where id = 9;");
