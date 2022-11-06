@@ -64,7 +64,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                     </li>
 
                     <li class="nav-item">
-                        <a href="#class" class="nav-link smoothScroll">Classes</a>
+                        <a href="#Services" class="nav-link smoothScroll">Services</a>
                     </li>
 
                     <li class="nav-item">
@@ -220,7 +220,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
      <!-- CLASS -->
-     <section class="class section" id="class">
+     <section class="class section" id="Services">
                <div class="container">
                     <div class="row">
 
