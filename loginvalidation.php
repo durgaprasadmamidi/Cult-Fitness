@@ -15,6 +15,7 @@
                         exit;
                     }
                 }
+                header("location: index.php");
      }
     else
     {
