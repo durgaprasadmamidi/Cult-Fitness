@@ -1,3 +1,8 @@
+<?php
+$err = filter_input(INPUT_GET, 'error');
+if ($err === "login") echo "<script>alert('Invalid login!');</script>";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

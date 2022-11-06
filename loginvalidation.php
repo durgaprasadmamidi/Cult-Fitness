@@ -15,10 +15,12 @@
                         exit;
                     }
                 }
-                header("location: index.php");
+                header("Location:index.php?error=login");
+
      }
     else
     {
-        header("location: index.php");
+        header("Location:index.php?error=login");
+
     }
 ?>
