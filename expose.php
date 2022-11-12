@@ -7,7 +7,7 @@
     //  $row = $result->fetch_assoc();
     // $users = $row["FirstName"];
      while($row = $result->fetch_assoc()){
-        $users2[] = $row["first_name"];
+        $users2[] = $row["FirstName"];
         //$users = $users.",".$row["FirstName"];
      }
      echo json_encode($users2);
