@@ -1,6 +1,5 @@
 <html>
     
-
 <body>
 <section class="main-section alabaster" id="tops">
 	<div class="container fullsize">

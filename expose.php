@@ -3,10 +3,12 @@
 <?php
      $sql = "SELECT * FROM users";
      $result = $mysqli->query($sql);
-     $row = $result->fetch_assoc();
-    $users = $row["FirstName"];
+     $users2 = array();
+    //  $row = $result->fetch_assoc();
+    // $users = $row["FirstName"];
      while($row = $result->fetch_assoc()){
-         $users = $users.",".$row["FirstName"];
+        $users2[] = $row["first_name"];
+        //$users = $users.",".$row["FirstName"];
      }
-     echo $users;
+     echo json_encode($users2);
 ?>
