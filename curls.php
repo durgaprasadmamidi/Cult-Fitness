@@ -13,8 +13,7 @@ curl_close($curl_handle);
 foreach (explode(",",$contents) as $content) {
     echo $content."<br/>";
 }
-echo " ";
-echo " ";
+
 
 echo "Users from ankursingh.me";
 $curl_handle = curl_init();

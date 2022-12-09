@@ -31,5 +31,26 @@
     <body> 
         <h1> This is page for Yoga
         </h1>
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                                <div class="class-thumb">
+                                    <img src="images/class/yoga-class.jpg" class="img-fluid" alt="Class">
+
+                                    <a href="yoga.php">
+                                    
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Yoga</h3>
+
+                                        <span><strong>Trained by</strong> - Bella</span>
+
+                                        <span class="class-price">$50</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                       
+                                        
+                                    </div>
+                                    </a>
+
+                                </div>
+                            </div>
     </body>
 </html>
