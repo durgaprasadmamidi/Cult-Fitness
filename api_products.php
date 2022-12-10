@@ -5,7 +5,7 @@ require "dbconnect.php";
 $sql = "SELECT * FROM products ORDER BY hits DESC";
 $results = $mysqli->query($sql);
 $output = [];
-for($i=0; $i<5; $i++){
+for($i=0; $i<10; $i++){
     $row = $results->fetch_assoc();
     $record = array();
     $record['service_name'] = $row["name"];
