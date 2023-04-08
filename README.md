@@ -5,7 +5,7 @@
 
 
 
-This is part of my CMPE 272 Assignment.
+This project is part of my CMPE 272 Assignment.
 
 
 You have to setup your own web prorgramming environment. The general goal is that we want you to setup an environment where you can reuse after school (say when you start your own company). Everything you learn from all the setups should be skills that will help you in and outside of school setting. Here are the requirements:
