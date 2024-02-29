@@ -1,7 +1,7 @@
 # CultFitness
 
 
-[:red_circle: Live ](http://esp.durgaprasad.live:4000/)
+[:red_circle: Live ](http://192.9.237.27:4000/)
 
 
 
